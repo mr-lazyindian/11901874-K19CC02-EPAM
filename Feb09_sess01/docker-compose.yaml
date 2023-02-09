@@ -3,4 +3,5 @@ services:
     image: redis
   web:
     image: nginx
-
+    ports:
+      - "8080:80"
