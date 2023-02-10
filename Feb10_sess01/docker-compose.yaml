@@ -1,0 +1,7 @@
+services:
+  web:
+    image: ubuntu     
+    links:
+      - "db:database"
+  db:
+    image: postgres

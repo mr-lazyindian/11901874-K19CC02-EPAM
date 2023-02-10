@@ -1,0 +1,34 @@
+->Enables a user to link a docker container to as many networks he/she requires.
+->These are used to provide complete isolation for docker containers.
+->Benefits:
+->They share a single OS and maintain containers in an isolated env.
+
+->Docker supports networking for its containers via network drivers. These drivers have several network drivers.
+
+Bridge:
+->Private default network created on host.
+->Container slinked to this network have an internal IP ddress through which they communivcate with each other easily.
+-> The docker daemon creates a virtual ethernet bridge docker0 that operates automatically, by delivering packets 
+among various network interfaces.
+
+Host:
+-> It is a public network.
+->It utilizes the host's IP address and TCp port space to display the services running inside the container.
+-> It effectively disabes network isolation between the docker host and docker containers.
+
+None:
+-> In this network driver, the docker contaoners will neither have any access to external networks nor will it be 
+able to communicate with other containers.
+->This option is used when a user wants to disable the networking access to the container.
+-> In simple terms, None is called a loopback interface.
+
+Overlay:
+->This isnutilized for creating an internal private network to the docker needs in the docker swarm cluster.
+->Docker Swarm is a service for containers which facilitates developer teams to build and manage a cluster of docker 
+nodes in docker platform.
+
+Macvlan:
+->It simplifies the communication process b/w containers.
+->This network  assigns a MAC address to the docker container. WIth this MAC address the Daemon routes the network
+traffic to a router.
+
