@@ -1,0 +1,3 @@
+docker network create --driver bridge my_driver -> creating a default network driver
+docker network inspect bridge my_driver ->Inspecting my_driver details
+docker network ls ->Lists all networks available in docker. 
