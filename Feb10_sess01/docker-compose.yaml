@@ -1,6 +1,6 @@
 services:
   web:
-    image: ubuntu     
+    build: .     
     links:
       - "db:database"
   db:
