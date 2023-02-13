@@ -1,0 +1,38 @@
+Docker: It is a tool that helps in developing, building, deploying and executing software in isolation.
+-> It does so by creating containers that completely wrap up a software.
+-> The isolation provided by the containers gives a layer of security to the containers.
+
+Containers:
+-> These are softwares that wrap up all the parts of code and all its dependencies into a single seployable unit that can be used on different systems and servers.
+-> code + library + environment = container.
+-> Multiple isolated containers can be launched together to form microservices which can be easily managed using any orchestration tool.
+eg: Docker swarm, Kubernetes etc..
+-> Multiple containers get to form micro services and they are managed by orchestration tools.
+Uses of containers:
+-> Consistent development environments.
+-> Microservices.
+Micro service: Handling a software, deploying a software.
+
+Docker Environment:
+Docker environment contains of Docker engine, Docker objects, Docker registry, Docker compose, Docker swarm.
+
+Docker Objects:
+Images:
+-> These are set of instructions that are used to create containers and execute code inside it.
+-> Images are like blueprints for creating containers hving all the requirements like OS etc.
+
+Volumes:
+->Docker volumes are basically persistent storage locations for the containers. They can be easily and safely attached and removed from different containers.
+-> They are also portable from one system to another.
+-> Like hard drives attached to container, we cn delete a container and still have datd inside of hard drives, we can safely detach them.
+-> We can remove and can attach to other containers.
+
+Network:
+-> A docker network is bascally a connection between one or more containers. One of the most powerful things about the docker containers is that they can be easily connected to one another and even other software, that 
+make it very easy to isolate and manage them.
+-> We can make a group of containers and isolate them from other containers and only accessible to specific source.
+We can do  this by using network drivers like, Bridge, overlay etc..
+
+Docker Compose:
+-> Docker compose is just a service with in docker that lets us launch multiple containers at the same time.
+

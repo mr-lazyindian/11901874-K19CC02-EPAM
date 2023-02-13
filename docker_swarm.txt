@@ -1,0 +1,57 @@
+Docker Swarm:
+-> It is an orchestration service within docker that allows us to manage and handle multiple containers at the same time.
+-> It is also a cluster of multiple containers.
+->It ha manager nodes and worker nodes.
+-> Manager node is a manager and worker nodes are the one's that performs tasks we have.
+
+Docker swarm Architecture:
+-> Docker engine basically helps you create a docker swarm.
+-> We have manager nodes and worker nodes.
+-> These worker nodes are connected to the manager node. Any scaling up, rolling back, any updation, an health check happens through the manager node.
+-> If you want to update any new features on to worker nodes, will do it in manager node, do the updates go to worker nodes.
+-> When you are assigned with specific task, manager node helps us to divide that task equally among all the worker nodes.
+   Docker Engine -> Manager Node -> Worker node
+                                                 -> Worker node
+                                                -> Worker node.
+-> Docker swarm components:
+Service, Task, Manager, Worker.
+
+Service:
+Any software comprises of different services. Just like features.
+-> Like Buying , tracking, payment, profile, warehouse; these represents a part of feature in an a application and you can run them on specific workers.
+
+To initialize docker swarm we need to go to manager node.
+-> sudo docker swarm init --advertise-addr <ip of manager node>
+-> After initializing swarm, you will get a command and we need to paste and run it in worker nodes. 
+After runnng the command in worker nodes, you are displayed with a line "You are now joined Docker swarm as worker"
+-> sudo docker node ls => To view all the worker nodes.
+-> docker info => Information about the docker machine.
+-> sudo docker swarm leave => for a worker node to leave the swarm.
+-> sudo docker node rm <node ip> => for removing nodes that are left from manager node.
+-> docker swarm leave --force => for a manager node to leave the swarm.
+-> docker swarm join-token worker => This command displays the command or token ro run in nodes that want t o
+join in cluster as worker nodes.
+-> docker service => It will create a service for us and that service is basically a container.
+-> docker service create --name <name> --replicas <count> --publish <port> <service name>
+-> We create replicas to increase the availability of the server.
+-> docker service ls => To view the list of created services.
+-> docker service <service name> ps => To view the location in which service is running.
+-> docker rm -f <service name> => To remove service.
+-> If a service is down in any of the nodes, docker swarm tries to relaunch that service again.
+-> The service only work in swarm if and only if we launch it from manager node.
+-> If a worker -node leaves the swarm, the services created will also discarded while leaving the swarm.
+-> docker service rm <service name> => To remove a service.
+-> docker service inspect --pretty <service name>
+-> docker stack deploy -c <name> <stack name>
+name-> name of yml file.
+-> We need to create a yml file containing all the service that need to be installed in containers and after that. 
+we run command to install them.
+-> docker stack is more like docker-compose but it is working in swarm.
+-> To scale services
+-> docker service scale <id> = <replica count>
+id = service id's
+replica= count (integer data)
+-> To update images
+docker service update -image:<service up> <service>
+service up: updation version  of service or rollback to old version
+service=> current version of service
