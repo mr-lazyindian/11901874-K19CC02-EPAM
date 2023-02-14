@@ -1,0 +1,5 @@
+docker network -h => help page for commands.
+docker network create <network name> => Creates a network with docker name. Default created network is bridge.
+docker network inspect <network name> => Inspecting the details of network
+docker run -itd --rm --name <name> <image> => creates image with name.
+docker run -itd --rm --name <name> --network <network name> <image> => Creates image with in the specified network.
