@@ -1,0 +1,16 @@
+AWS Account Management:
+-> Accounts are a fundamental part of accessing AWS services.
+-> AWS account services two basic functions:
+1) Container: Basic container for all the AWS resources you create as an AWS customer.
+All services we have created are uniquely identified by ARN.
+2) Security boundary: Resources that you create in your account are available to users who have credintials for you account.
+
+-> As a security best practice, require your users to use temporary credentials when accessing AWS.
+
+AWS account id:
+A 12 digit number, that uniquely identifies an AWS account.
+
+Canonical user ID:
+An alpha numeric identifier, that is an obfuscated from the account id.
+
+

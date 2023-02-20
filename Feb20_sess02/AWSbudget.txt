@@ -1,0 +1,7 @@
+AWS budget:
+Set custom budgets that alert you whe you exceed your budgeted thresholds.
+AWS budgets is your hub for creating, tracking, and inspecting your budgets.
+AWS budgets: Improve planning and cost control with flexible budgeting and forecasting.
+Create a budget: customize how you want budget your spend.
+Get alerted: Recieve alerts when you exceed your budget.
+Respond with actions: Defie and trigger cost saving responses to stay within budget.
