@@ -1,0 +1,31 @@
+Identity Access Management:
+-> accounts -> IAM user -> Activate.
+-> has users, policies, groups, roles.
+---------------------------------------------------------------------------------------------------------------------
+Working of IAM:
+-> Principal 
+-> Authentication 
+-> Request Authorizations 
+-> Actions 
+-> Resources
+---------------------------------------------------------------------------------------------------------------------
+Users:
+-> Users are AWS entities that represent the person or application tha interacts with AWS.
+-> Users have a name and credentials.
+-> Root user of an AWS account is not the same as an IAM user with administrator access.
+---------------------------------------------------------------------------------------------------------------------
+Groups:
+-> A set of IAM users is referred to as an IAM user group.
+-> User groups allow you to specify permissions for many users, making it easier to manage those user's permissions.
+-> In  resource-based policy, a user group cant be designated as a Pirncipal. A user group is a technique to 
+apply policies to a group of people all at once.
+---------------------------------------------------------------------------------------------------------------------
+Roles:
+-> Role, like an IAM user, is an AWS identity with permission that govern what the identity can and cannot do in AWS.
+-> There are no long-term credentials connected with a role.
+---------------------------------------------------------------------------------------------------------------------
+Policies:
+-> These are linked to IAM identities, or AWS resources to manage access in AWS.
+-> A policy is an object that defines the rights of an identity or resource when it is associated with it.
+->AWS examines them when a user submits the request.
+---------------------------------------------------------------------------------------------------------------------
