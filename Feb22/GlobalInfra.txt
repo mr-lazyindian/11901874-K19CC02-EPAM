@@ -1,0 +1,25 @@
+Global Infrastructure:
+AWS cloud infrastructure is built around AWS regions and availability zones.
+An aws region is physical location in the world.
+availability zones consist of data centres.
+------------------------------------------------------------------------------------------------------
+GLobal components are:
+Availability zones (AZ): These are distinct locations within an AWS region that are engineered to be isolated from failures
+in other availability Zones. Meaningful distance of separation. Unique power infrastructure. Many 100Ks of servers at scale.
+Data centers conneced via fully redundant and isolated metro fiber. Fully isolated infrastructure with one or more data centres.
+------------------------------------------------------------------------------------------------------
+Regions: A region is a specific geographical location where yo can run your resources.
+------------------------------------------------------------------------------------------------------
+Edge ocations: These are AWS datacentres dsigned to deliver services with the with the lowest latency possible
+------------------------------------------------------------------------------------------------------.
+Regional Edge caches: It is used in between region and edge locations during lo latency.
+------------------------------------------------------------------------------------------------------
+Global And Region AWS architecture:
+-> Global Service Location and Discovery.
+-> COntent delivery and Optimizations.
+-> Global Health Check and Failover.
+-> Regional End point.
+-> Scaling ad Resilience.
+-> Application Service and components.
+-------------------------------------------------------------------------------------------------------
+

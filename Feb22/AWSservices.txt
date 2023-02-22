@@ -1,0 +1,8 @@
+Public vs Private services:
+Public services are accessible to everyone having internet connection and public endpoint.
+Private services are under VPC and not accessible to everyone. Anyone with credentials can have access to private services.
+AWS Private zone: VPCs are isolated unless configured otherwise.
+ON_PREMISES can access VPCs only if configured via VPN or Direct Connect.
+AWS Public zone: Private services can be given a public IP translated by IGW.
+Public Internet zone: Access to public AWS using internet as transit.
+Private networks can be connected together if only if we allowed it.
