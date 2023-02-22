@@ -1,0 +1,14 @@
+Logically isolated network in the AWS Cloud that you control.
+AWS Reference model:
+Whu use VPC?
+-> Control of netwro architecture 
+-> Further secure your resources.
+-> Evolving EC2 feature set.
+-> Enales hybrid cloud architectures.
+-> Privately internetwork with other organizations.
+-> Inteligently address inceasing infrastructure demands.
+
+VPC enabled services:
+-> EC2 AutoScaling Elastic Load Balancer RDS RedShift Elastic Map Reduce 
+
+
