@@ -1,0 +1,28 @@
+EC2:
+Elastic compute cloud.
+-> Provides resizable computer capacity in the cloud.
+-> Virtual machine in the cloud.
+-> Webservice from Amazon that provides resizable compute servies in the cloud.
+-> They are resizable because you can quickly scale up or scale down.
+-> An instance is a virtual for running applications on Amazon server.
+-> Pay as you use.
+-> Choose linux or windows.
+-> Choose across regions and avaialability zones for reliability.
+-> You can launch as many or as few virtual servers in cloud.
+
+Features:
+-> Virtual computing environments, known as instances.
+-> Preconfigured templates for your instances, known as Amazon Machine Images.
+-> Various configurations of CPU, memory, storage, and networking capacity for your instances, known as instance types.
+-> Secure login information for your instances using key pairs.
+-> Storage volumes for temporary data that deleted when you stop or terminate your instance, known as instance stire volumes.
+-> Multiple physical locations for your resources, such as instances and amazon EBS known and availability zones.
+-> A f0irewall that enables you to specify the protocols, parts and source IP ranges that can reach your instances using
+security groups.
+-> Static IPv4 addresses for dynamic cloud computing as Elastic IP addresses.
+
+EC2 Options:
+On demand.
+reserved. 
+spot.
+Dedicated Hosts.
