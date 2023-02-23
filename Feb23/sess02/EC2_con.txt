@@ -1,0 +1,8 @@
+EC2 -  Security group:
+-> Like a virtual fire wall.
+-> Ingress and Egress.
+-> Changes in security groups configuration acts immediately.
+-> By default everything on AWS is private. All inbound traffic is blocked by default.
+-> If we do not allow a particular protocol no one will ever be able to access our instance using that protocol.
+-> Any rules edit on security group have immediate effect.
+
