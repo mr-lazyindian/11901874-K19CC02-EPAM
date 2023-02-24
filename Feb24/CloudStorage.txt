@@ -1,0 +1,43 @@
+-> It is a web service where your data can be stored, accessed, and quickly backed up by using on the internet.
+Pay for what you use.
+Pay for monthly basis
+Cloud storage is reliable scalable secure.
+Types of AWS storages
+-> S3 
+-> EBS 
+-> EFS 
+-> glacier 
+-> gateway 
+-> snowball 
+-> snowmobile.
+
+S3:
+-> Customers of all sizes and industries can use S3 to store and protect any amount of data for use cases
+uses:
+-> Data lakes 
+->  websites 
+-> mobile applications 
+-> backup and restore 
+-> archive enterprise for IOt devices.
+
+-> Provides storage through webservices interfaces.
+-> While designed for developers for easier web scale computing.
+-> It provides 99.9999999 percent durability.
+-> 100 buckets per account, 5TB per object, 5GB for PUT.
+
+Benefits of S3:
+-> Benefit, lowcost, Scalability, Availability, Security, FLexibility, Simple Data Transfer.
+
+Objectand Bucket:
+-> An object consists of data, key, and metadata. A bucket is used to store objects when data is added to a bucket.
+-> S3 creates a unique version ID and allocates it to the object.
+-> Object: FOlder/filename.jpg
+-> Bucket: Demo_Bucket
+
+Storage Management:
+-> Manage costs, meet regulatory requirements, reduce latency, save multiple distinct copies of your data for compliance requirements.
+S3 Lifecycle:
+Configure a life cycle plicy to manage your objects and store them cost effectivey throughout their lifecycle.
+-> S3 Object lock: Prevent objects from being deleted or overwritten for a fixed amount of time or indefinitely.
+-> S3 Replication: Replicate objects and their respective metadata and object tags to one or more destination buckets in same or different regin.
+-> S3 Batch Operations.
