@@ -1,0 +1,4 @@
+S3 static webiste hosting.
+Editing bucket policy.
+Enable versioning.
+
