@@ -1,0 +1,3 @@
+CMK: That you create, ow, and manage. 
+AWS managed CMK: CMK's in your account that are created, managed, and used on your behalf by an AWS service.
+
