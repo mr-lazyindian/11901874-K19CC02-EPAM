@@ -1,0 +1,15 @@
+Replicating objects:
+Replication enables automatic, asynchronous copying of objects across Amazon S3 buckets.
+You can replicate objects to a single destination bucket or to multiple destination buckets. 
+The destination buckets can be in different AWS Regions or within the same Region as the source bucket.
+To automatically replicate new objects as they are written to the bucket, use live replication, such as Cross-Region Replication (CRR).
+To replicate existing objects to a different bucket on demand, use S3 Batch Replication.
+
+Why use Replication:
+Replicate objects while retaining metadata.
+Replicate objects into different storage classes.
+Maintain object copies under different ownership.
+Keep objects stored over multiple AWS Regions.
+Replicate objects within 15 mins.
+Sync buckets, replicate existing objects, and replicate previously failed or replicated objects.
+Replicate objects and fail over to a bucket in another AWS region.
