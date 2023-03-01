@@ -1,0 +1,6 @@
+S3 Select:
+Retrieve only a subset of data from an object by using simple SQL expressions.
+Input: CSV,TSV.
+output: CSV,TSV,JSON
+compression: GZIP,BZIP2.
+
