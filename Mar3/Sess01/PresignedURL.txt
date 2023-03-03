@@ -1,0 +1,5 @@
+
+All objects and buckets are private by default.
+You can usea presigned url to share access to objects.
+If you want to restrict the use of presigned URL's and all S3 access to particular network paths, you can write AWM IAM policies.
+cli -> aws s3 presign s3://<bucket name>/<object name>

@@ -1,0 +1,19 @@
+AWS Cloud9 is an integrated development environment, or IDE.
+The AWS Cloud9 IDE offers a rich code-editing experience with support for several programming languages and runtime debuggers, and a built-in terminal. 
+It contains a collection of tools that you use to code, build, run, test, and debug software, and helps you release software to the cloud.
+You access the AWS Cloud9 IDE through a web browser.
+You can configure the IDE to your preferences. You can switch color themes, bind shortcut keys, enable programming language-specific syntax coloring and code formatting, and more.
+
+AWS Cloud9 environments
+An AWS Cloud9 environment is a place where you store your project's files and where you run the tools to develop your applications.
+
+Using the AWS Cloud9 IDE, you can:
+
+Store your project's files locally on the instance or server.
+
+Clone a remote code repository—such as a repo in AWS CodeCommit—into your environment.
+
+Work with a combination of local and cloned files in the environment.
+
+You can create and switch between multiple environments, with each environment set up for a specific development project. By storing the environment in the cloud, your projects no longer need to be tied to a single computer or server setup. This enables you to do things such as easily switch between computers and more quickly onboard developers to your team.
+
