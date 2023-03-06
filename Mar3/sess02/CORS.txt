@@ -1,0 +1,2 @@
+Cross Origin Resource Sharing:
+It defines a way for client web applications that are loaded in one domain to interact with resources in a different domain.
