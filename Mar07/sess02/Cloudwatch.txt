@@ -1,0 +1,16 @@
+Cloud watch:
+Monitors your aws resources and the applications you run on AWS real time.
+Use to collect and track metrics, which are variables you can measure for your resources and applications.
+Home page automatically displays about every service you have used.
+You can additionally create custom dashboards to display metrics about your custom applications.
+Can create alarms the resources you are monitoring when a threshold is breached.
+Can also use this data to stop under used instances to save money.
+other purpose:
+Detect any anomaly in your cloud environment.
+Custom dashboards that include metrics of AWS you use.
+
+access:
+Amazon cloudwatch console.
+AWS SLI
+Cloud watch API's
+AWS SDK's
