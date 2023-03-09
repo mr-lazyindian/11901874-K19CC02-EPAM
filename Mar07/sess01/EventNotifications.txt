@@ -1,0 +1,16 @@
+You can use the Amzon S3 Event notifications fature to recieve notifications when certain events happen in your S3 bucket.
+
+To enable notifications, add a notification configuration that identifies the events that you want Amazon s3 to publish.
+Events:
+1) New object created
+Object removed
+Reduced redundancy storage RRS Restored objects
+RRS object lost events
+Lifecycle expiratin
+lifecycle transition
+intelligent tiering automatic archival
+object tagging
+ACL PUT events
+
+Destinations:
+S3 supports severral event notifications types and destinations where the notifications can be published.

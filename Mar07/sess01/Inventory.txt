@@ -1,0 +1,13 @@
+It is one of the tools amazon s3 provides to help manage ypur storage.
+You can use it to audit and report on the replication and encryption status of your business, compliances and regulatory needs.
+You can also simplify and speed up business workflows amd big data jobs.
+amazon inventory provides csv, orc praquet output files that list your objects and their corresponding meta data or weekly basis for s3 bucket or a shared prefix.
+You can configure multiple list for the bucket.
+
+Source Bucket:
+The inventory list the objects that are stored in the source bucket.
+
+Destination Bucket:
+Amazon s3 inventory list files are written the destination bucket.
+the destination bucket.
+
