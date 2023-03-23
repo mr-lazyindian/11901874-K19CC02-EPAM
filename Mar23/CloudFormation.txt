@@ -1,0 +1,19 @@
+Model and provision all your infrastructure.
+Provides a common language to describe and provision all the infrastructure resources in your environment in a safe, repeatable way.
+
+
+Code your infrastructure using the CloudFormation template language in the YAML or JSON format, or start from many available sample templates.
+
+Stacks
+A stack is a collection of AWS resources that you can manage as a single unit. All the resources in a stack are defined by the stack's AWS CloudFormation template
+
+
+StackSets
+StackSets enables you to create, update, or delete stacks across multiple accounts and regions with a single operation
+
+Simplify infrastructure management.
+Quickly replicate your infrastructure.
+Easily control and track changes to your infrastructure.
+
+
+
