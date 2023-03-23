@@ -1,0 +1,22 @@
+Infrastructure Security:
+AWS provides several security capabilities and services to increase provacy and control network access.
+Network firewalls built into Amazon VPC.
+Connectivity options.
+DDoS mitigation technologies.
+Automatic encryption of all traffic on the AWS global and regional networks between AWS asecured facilities.
+
+Inventory and configuration management.
+Data encryption.
+Identity and access control.
+
+Security Hub:
+Consolidated view of security issues.
+Automated, continuos security checks.
+
+Amazon Inspector:
+When you activate Inspector, you grant Inspector permissions to discover, classify, and protect sensitive data in AWS on your behalf and to generate findings about potential security issues. This will activate Inspector for your account only.
+Automated and continual vulnerable checks.
+Amazon inspector -> Enable amazon inspector -> Discover and scan -> Contextualize findings -> Take action (Inspector, security hub, EventBridge, ECR).
+
+create a security guard for Cloud trail.
+
