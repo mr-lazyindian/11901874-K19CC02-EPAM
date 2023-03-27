@@ -1,0 +1,16 @@
+Amazon Relational Database Service: 
+->Amazon Relational Database Service (Amazon RDS) is a web service that makes it easier to set up, operate, and scale a relational database in the AWS Cloud.
+-> It provides cost-efficient, resizable capacity for an industry-standard relational database and manages common database administration tasks.
+
+DB Instance:
+A DB instance is an isolated database environment in the AWS Cloud. The basic building block of Amazon RDS is the DB instance.
+Your DB instance can contain one or more user-created databases. You can access your DB instance by using the same tools 
+and applications that you use with a standalone database instance.
+
+DB engines:
+A DB engine is the specific relational database software that runs on your DB instance. Amazon RDS currently supports the following engines:
+-> MariaDB
+-> Microsoft SQL Server
+-> MySQL
+-> Oracle
+-> PostgreSQL

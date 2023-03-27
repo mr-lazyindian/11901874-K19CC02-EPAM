@@ -1,0 +1,20 @@
+AWS Certificate Manager (ACM) handles the complexity of creating, storing, 
+and renewing public and private SSL/TLS X.509 certificates and keys that protect your AWS websites and applications.
+
+-> Easily provision, manage, deploy, and renew SSL/TLS certificates.
+-> Free public certificates for ACM-integrated services.
+-> Managed certificate renewal.
+-> Get certificates easily.
+
+Use Cases:
+-> Protect and secure your website.
+-> Protect and secure your internal resources.
+-> Help meet compliance requirements.
+-> Improved uptime.
+
+AWS offers two options to customers deploying managed X.509 certificates.
+->AWS Certificate Manager (ACM)—This service is for enterprise customers who need a secure web presence using TLS. 
+ACM certificates are deployed through Elastic Load Balancing, Amazon CloudFront, Amazon API Gateway, 
+and other integrated AWS services.
+->AWS Private CA—This service is for enterprise customers building a public key infrastructure (PKI) 
+inside the AWS cloud and intended for private use within an organization.
