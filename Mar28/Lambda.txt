@@ -1,0 +1,10 @@
+-> AWS Lambda is a compute service that lets you run code without provisioning or managing servers.
+-> Lambda runs your code on a high-availability compute infrastructure and performs all of the administration 
+of the compute resources, including server and operating system maintenance, capacity 
+provisioning and automatic scaling, and logging.
+-> Uses:
+1) File processing.
+2) Stream processing.
+3) Web applications.
+4) IoT backendsIoT backends.
+5) Mobile backends.
