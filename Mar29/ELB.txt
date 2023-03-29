@@ -1,0 +1,26 @@
+It automatically distributes your incoming traffic across multiple targets, such as EC2 instances, containers, and
+IPaddresses, in one or more AZ's.
+Monitors health also of targets.
+
+Types:
+CLassic LB: Traditional form if load balancer which was used initially.
+It distributes the traffic among the instances and is not intelligent to support host based routing.
+Application load balancer:
+Used when decisions are to be made related to HTTp/HTTPs traffic routing
+Supports both path based and host based
+Network LB:
+Works at transport layer of osi model, used for balancing TCP traffic.
+Gateway LB:
+Gateway Load Balancers enable you to deploy, scale, and manage virtual appliances, such as firewalls, 
+intrusion detection and prevention systems, and deep packet inspection systems.
+
+features:
+Elastic, secure, integrated, cost effective.
+
+load balancer -> listeners -> Rules -> target groups
+listeners(port and protocol)
+target group(logical grouping of targets, cam contain upto 1000 targets(EC2, IP, ECS)
+Targets(EC2, ECS and Ip addresses, single target can be registered with multiple target groups, IP addresses
+both accessible within your VPC and dbx)
+Rules(listener can have one or more rules, conditions and actions, forward requests to a specified group)
+
