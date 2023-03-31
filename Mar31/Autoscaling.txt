@@ -1,0 +1,21 @@
+-> It monitors ypur applications and automatically adjusts capacity to maintain steady, predictable performance at the 
+lowest possible cost.
+-> Its easy to setup application scaling for multiple resources across multiple services in minutes.
+-> services include: EC2, ECS...!
+-> Autoscaling -> Explore applications -> Discover what you can scale -> Choose what to optimize -> Track scaling as it happen.
+
+Scaling techniques:
+dynamiuc, predictive, scheduled.
+1) Dynamic: Adapts to changing environments and responds with the EC2 instances as per the demand.
+It helps the user to follow the demand curve for the application, which ultimately helps the maintainer/user to scale the instances a head of time.
+2) Predicted: Helps you to schedule the right number of EC2 instances on the predicted demand.
+You can use both dynamic and predictive scaling approaches together for faster scaling of the application.
+3)Scheduled: allows you to scale your appliucation based on the scheduled time you set.
+
+Benefits:
+1) Setup scaling quickly: lets you set target utilization levels for multiple resources in a single, intuitive interface.
+You can quickly see the average utilization of all your scalable resources without having to navigate to other consoles.
+2) Make smart scaling decisions: Let you build svaling plans that automate how groups of different resources respond to changes in demand. 
+3) Automatically maintain performance: You maintain optimal application performance amd availability.
+4) Pay only for what you need,
+Scaling policies, Application dependencies, Cost.
