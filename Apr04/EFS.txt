@@ -1,0 +1,18 @@
+EFS is a fuly managed, highly scalable, and highly available file storage service provided by AWS.
+Serverless, fully elastic file storage.
+
+Benefits:
+Scalability, Durability, Performance, Comoatability, Integration with other AWS services.
+
+Main components of architecture:
+
+-> File systems: Fullyu managed NFS system that can be accessed from multiple EC2 instances simultaneously.
+-> Mount targets: Users need to create mount targets in their VPC. A mount target is an endpoint in the VPC that allows
+EC2 instances to connect to the EFS file system using NFS protocols. Mount targets can be created in one or more AZ to 
+provide high availabilty and durability.
+-> NFS: EFS uses the NFS to allow EC2 instances to mount file systems and access data stored in them.
+-> Metadata Service:A metadata service that keeps track of file system formation, such as file and directory 
+attributes and ACL's.
+-> Data Replication: replicates data across multiple AZ to ensure durability and availability of systems.
+-> Security and Compliance: Security featurs like encryption at rest and in transmit, IAM based control, 
+and network isolation to protect data.
