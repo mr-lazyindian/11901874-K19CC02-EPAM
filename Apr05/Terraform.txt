@@ -1,0 +1,31 @@
+Two basic approaches to designing automation processes:
+1) Imperative: work-flow based. how you do something.
+2) Declarative: model-based. what you want, but not how tomake things happen.
+
+Idempotency refers to the property that a terraform operation can be repeated multiple times without changing 
+the end result.
+
+
+state pus: used to manually upload a local file to remote state.
+also works with local state.
+state pull: manually download and output the state from remote state and works as well with local state.
+
+Components of terraform architecture:
+Terraform configuration files.
+Terraform state file.
+Infrastructure as Code.
+
+Cloud APIs or other infrastructure providers
+Providers: AWS, AZURE, GCP. These allow Terraform to create and manage resources on those platforms.
+
+Module in Terraform:
+source, name, version.
+
+Private module registry.
+
+Terraform commands:
+terraform init: this command initializes a terraform working directory by downloading and installing necessary dependencies.
+
+
+
+
