@@ -1,0 +1,20 @@
+provider "aws" {
+   access_key = "AKIA52LW4STZEZOQI7IU"
+  secret_key = "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"
+  region = "ap-south-1"
+ }
+ 
+ terraform {
+   backend "s3" {
+     bucket = "11901874"
+     key = "terraform/backend/terraform_aws.tfstate"
+     region = "ap-south-1"
+     dynamodb_table = "terraform-s3-backend-locking"
+     encrypt = true
+   }
+ }
+ 
+ resource "aws_instance" "terraform_aws_ec2" {
+   ami = "ami-0be2609ba883822ec"
+   instance_type = "t2.micro"
+ }
