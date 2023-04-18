@@ -1,0 +1,22 @@
+- name: Create EC2 instance
+  hosts: localhost
+  connection: local
+  gather_facts: no
+  vars:
+    instance_type: t2.micro
+    ami: ami-07d3a50bd29811cd1
+    region: ap-south-1
+    key_name: id_rsa
+    security_group: default
+    tag_name: ansible
+  tasks:
+    - ins:
+        key_name: "{{ key_name }}"
+        instance_type: "{{ instance_type }}"
+        image: "{{ ami }}"
+        region: "{{ region }}"
+        group: "{{ security_group }}"
+        instance_tags:
+          Name: "{{ tag_name }}"
+        wait: true
+        register: ec2
