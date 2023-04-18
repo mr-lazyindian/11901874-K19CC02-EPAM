@@ -1,0 +1,17 @@
+---
+- name: Update
+  hosts: mumbai
+  become: yes
+  tasks:
+    - name: Update apt
+      ansible.builtin.yum:
+        update_cache: yes
+        upgrade: dist
+    - name: Install tree
+      ansible.builtin.yum:
+        name: true
+        state: present
+    - name: Remove
+      ansible.builtin.yum:
+        name: nano
+        state: absent
