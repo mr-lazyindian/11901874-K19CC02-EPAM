@@ -1,7 +1,7 @@
 ---
 - name: Update
   hosts: mumbai
-  become: yes
+  become: true
   tasks:
     - name: Update apt
       ansible.builtin.yum:

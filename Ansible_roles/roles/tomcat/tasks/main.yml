@@ -1,7 +1,9 @@
 ---
 # Installing the Java (Open Jdk) 
-- name: Install Java 1.8
-  apt: name=openjdk-8-jdk
+- name: install openjdk-8-jre-headless
+      ansible.builtin.apt:
+        name: true
+        state: present
 
 # Adding the group tomcat
 - name: add group "tomcat"

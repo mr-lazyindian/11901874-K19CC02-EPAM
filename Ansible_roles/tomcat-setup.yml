@@ -1,5 +1,4 @@
 - name: Tomcat deployment playbook
-  hosts: 172.28.128.1
-  remote_user: ubuntu
+  hosts: ec2
   roles:
     - tomcat
